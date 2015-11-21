@@ -12,10 +12,11 @@ This packages assumes that the data files are stored in the followning structure
   
 -WORKING
 -script run_analysis.R
---UCI HAR Dataset
----activity_labels.txt
----features.txt
-----test
+  -UCI HAR Dataset
+  -activity_labels.txt
+    -features.txt
+    -test
+
         X_test.txt
         y_test.txt
         subject_test.txt
