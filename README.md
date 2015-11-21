@@ -9,7 +9,8 @@ The R package reshape is required to execut this script. Load this package from 
   if you have not already installled on your machine.
 
 This packages assumes that the data files are stored in the followning structure and the script is ran from the Working folder:
-  
+
+```  
   WORKING
   script run_analysis.R
     UCI HAR Dataset
@@ -25,7 +26,7 @@ This packages assumes that the data files are stored in the followning structure
         y_train.txt
         subject_train.txt
        
-
+```
 Set the default folder to the WORKING folder.
 
 Execute the script 
