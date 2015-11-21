@@ -10,22 +10,21 @@ The R package reshape is required to execut this script. Load this package from 
 
 This packages assumes that the data files are stored in the followning structure and the script is ran from the Working folder:
   
--WORKING
--script run_analysis.R
-  -UCI HAR Dataset
-  -activity_labels.txt
-    -features.txt
-    -test
-
+  WORKING
+  script run_analysis.R
+    UCI HAR Dataset
+    activity_labels.txt
+      features.txt
+      test
         X_test.txt
         y_test.txt
         subject_test.txt
-    │   └───Inertial Signals
-    └───train
+       
+      train
         X_train.txt
         y_train.txt
         subject_train.txt
-        └───Inertial Signals
+       
 
 Set the default folder to the WORKING folder.
 
